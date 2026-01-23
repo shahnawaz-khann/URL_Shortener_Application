@@ -112,7 +112,7 @@ export function CreateLink() {
         {errors.title && <Error message={errors.title} />}
         <Input
           id="longUrl"
-          placeholder="Enter your Loooong URL"
+          placeholder="Enter your Long URL"
           value={formValues.longUrl}
           onChange={handleChange}
         />
